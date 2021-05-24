@@ -1,6 +1,5 @@
 package com.example.firebaselearningproject2021;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
@@ -13,7 +12,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -57,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
         userCourse = findViewById(R.id.course);
         browse = findViewById(R.id.browse_button);
         signup = findViewById(R.id.signup_button);
-        userProfileImage = findViewById(R.id.imageView);
 
         browse.setOnClickListener(new View.OnClickListener() {
             @Override
